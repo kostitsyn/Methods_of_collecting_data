@@ -13,7 +13,7 @@ response = requests.get(url, headers=headers)
 j_data = response.json()
 
 #  Выводим список репозиториев для конкретного пользователя
-print(f'Список репозиториев пользователя {j_data[1].get("owner").get("login")}:\n')
+print(f'Список репозиториев пользователя {j_data[0].get("owner").get("login")}:\n')
 for i in j_data:
     print(i['name'])
 
