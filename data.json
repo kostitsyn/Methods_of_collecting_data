@@ -1,0 +1,2922 @@
+[
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46758720?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": 250000,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "GO/Golang разработчик"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46639589?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": null,
+            "min_salary": 300000
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Golang разработчик"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46298616?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": 400000,
+            "min_salary": 200000
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Golang Developer"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46385509?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": 250000,
+            "min_salary": 150000
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Golang Разработчик"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/38016148?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": 260000,
+            "min_salary": 200000
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Middle/Senior Golang developer"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46672038?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": null,
+            "min_salary": 170000
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Golang developer"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46528178?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": 180000,
+            "min_salary": 130000
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Golang разработчик"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46339378?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": 350000,
+            "min_salary": 220000
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Senior Golang Developer"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46607088?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": 300000,
+            "min_salary": 180000
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "GoLang developer"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46799099?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "USD",
+            "max_salary": 5500,
+            "min_salary": 4000
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Senior Golang developer (Remote)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46816893?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": 100000,
+            "min_salary": 80000
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Golang разработчик (Junior+)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46828184?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "USD",
+            "max_salary": 6000,
+            "min_salary": 3000
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Golang developer, Remote"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46198448?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": null,
+            "min_salary": 200000
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Backend-разработчик (GoLang)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46392952?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "USD",
+            "max_salary": 5000,
+            "min_salary": 4000
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Senior Golang Developer [remote]"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46008009?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": 350000,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Go (Golang) Backend Developer"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46573085?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Junior Go (Golang) разработчик"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/43687421?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": 350000,
+            "min_salary": 180000
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Ведущий разработчик GOlang"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46391924?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": 300000,
+            "min_salary": 200000
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Backend Senior Developer"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46490263?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": null,
+            "min_salary": 200000
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Senior Golang developer / Программист Go"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/43814495?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Sr Backend developer - Golang (US contract)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46796300?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Senior GoLang developer"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46818677?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": 250000,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Golang разработчик"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46741871?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Golang разработчик"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46798141?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Senior/Middle Golang developer"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/41630061?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Golang разработчик (backend)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46112316?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Golang разработчик"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/43928691?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Backend разработчик (PHP/Golang)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46410241?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Middle golang developer"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46354450?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": 200000,
+            "min_salary": 150000
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Python backend developer"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46713170?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Senior back-end developer / Ведущий разработчик Go/Kotlin / Разработчик Golang"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46093945?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Golang-разработчик"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46061324?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": null,
+            "min_salary": 60000
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Go Golang Разработчик"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/44201503?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Golang Expert/Golang developer"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46847100?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Golang разработчик"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/43427932?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Golang/ Go-разработчик"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/45382222?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Senior golang developer"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46537925?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": null,
+            "min_salary": 150000
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Middle Go Developer"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/43432370?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Golang Developer"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/45618977?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": 320000,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Golang Tech lead"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/44787376?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Go Developer"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46571435?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Golang developer"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46607999?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Golang Разработчик (Middle/Senior)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46597706?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Golang Team Lead"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46526613?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": 300000,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Senior Golang / Go разработчик"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46588705?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": 250000,
+            "min_salary": 180000
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Golang developer"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46300392?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "USD",
+            "max_salary": null,
+            "min_salary": 3500
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Golang Developer"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/44196618?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": 350000,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Golang Team Lead (Core)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/44988736?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Senior Golang Developer (Air)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/45717813?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Разработчик Golang"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/43289538?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Golang Developer (PaaS)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/44553951?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Junior-разработчик Golang"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/45274564?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Junior-Developer Golang"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46445639?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Golang Team Lead"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/43891780?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "USD",
+            "max_salary": 5000,
+            "min_salary": 4000
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Senior Backend Developer Go"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46349868?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Golang-developer"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46353986?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": null,
+            "min_salary": 140000
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Golang Developer"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46353695?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": 350000,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Golang разработчик (Middle/Teamlead)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46382704?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "USD",
+            "max_salary": 4000,
+            "min_salary": 3000
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Middle Backend Developer Go"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46328363?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Golang программист"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46345934?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Golang Developer"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/45635640?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": 240000,
+            "min_salary": 150000
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Go/Golang Backend-разработчик"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/45492680?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Golang senior-developer (команда платежного шлюза)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46211409?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Golang-разработчик"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46175047?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": 200000,
+            "min_salary": 130000
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Backend developer Go"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46087604?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Go developer"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/44535853?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Senior Backend developer (Go) (remote)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46795414?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": 300000,
+            "min_salary": 200000
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Fullstack Developer (PHP, Go, JavaScript, Nginx, Kubernetes, Docker)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46796963?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "PHP-разработчик удаленно"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46672938?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Linux Kernel Developer (Huntpoint for Linux)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/45248856?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": null,
+            "min_salary": 220000
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Senior Backend разработчик (Golang)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46351042?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "EUR",
+            "max_salary": null,
+            "min_salary": 2000
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Python Developer"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46846223?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Программист GoLang"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46702610?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": 250000,
+            "min_salary": 160000
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Разработчик (C++/Python senior, backend, embedded)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/44847663?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Go разработчик / Golang Developer в SberDevices (Messaging Platform)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46816977?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Senior golang разработчик"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/44686561?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Python/Go Developer (Central Services)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46392606?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": 230000,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Senior/middle Ruby on rails Developer в продуктовую команду"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46532078?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": 200000,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Fullstack программист (golang/reactjs)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46532185?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Разработчик GO"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46673651?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Backend Lead Golang в отдел разработки лингво-математических сервисов"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/41263186?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": null,
+            "min_salary": 200000
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Senior Python developer"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46425761?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Разработчик GO (SberMeetup)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/43618670?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": null,
+            "min_salary": 160000
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Go-разработчик (Linux)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46755960?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": 250000,
+            "min_salary": 150000
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Php developer"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/44669716?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Разработчик С/С++/Python"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46659492?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": 150000,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Разработчик Программист Team Lead Backend"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46479664?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Senior DevOps Engineer"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46640285?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "USD",
+            "max_salary": null,
+            "min_salary": 3000
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Senior PHP Software Engineer (Remote)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46753624?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": 300000,
+            "min_salary": 250000
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Разработчик С++"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/43522324?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Разработчик облачного хранилища (Go)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46834031?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Руководитель отдела Backend-разработки (Golang)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/45956207?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Php разработчик в Admin Platform"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46790088?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": 450000,
+            "min_salary": 300000
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Team Lead"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46640356?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "USD",
+            "max_salary": null,
+            "min_salary": 2000
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Middle PHP Software Engineer (Remote)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46258803?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Разработчик Go, Ограничения доставки"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/44476927?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Разработчик Back-end (Java, PostgreSQL, ClickHouse)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46314392?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "EUR",
+            "max_salary": 7000,
+            "min_salary": 5000
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Senior Software Backend Engineer in Deutschland"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/37583293?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Python developer"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46710017?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Senior PHP developer"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46825988?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "PHP/Go developer"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/44556922?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "C++ Developer (Software-Defined Storage)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46222803?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Senior JAVA developer (Cloud-Native Client Profile)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46831266?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "DevOps engineer"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46054344?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "PHP-разработчик"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46759668?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "DevOps Engineer"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46486826?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Teamlead/Руководитель группы разработки"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46759278?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Python разработчик в отдел автоматизации (R&D)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46831248?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "DevOps Engineer (Infrastructure)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46749887?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "System Software Engineer [Unix, C/C++, Go]"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46734016?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "DevOps инженер"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46770797?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Middle Go Engineer"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46632959?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": 400000,
+            "min_salary": 350000
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Руководитель frontend разработки / тимлид (JS, Typescript, Vue)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/42686815?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Старший разработчик Go, Путь совершения покупки/Видео платформа"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/44515723?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Разработчик BI"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46137736?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "DevOps Engineer (Delivery team, Perm)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/41703678?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": 300000,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Specialist DevOps"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46809507?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Full-Stack JavaScript Developer в видео-сервис"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46755748?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Разработчик Go, Путь совершения покупки/Личный кабинет и избранное"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/44360630?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "DevOps инженер"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/45999933?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Программист / Разработчик на C#"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/39988635?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Infrastructure Security Team Lead (Кипр)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46824127?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Разработчик Go, Путь совершения покупки/Пользовательский контент"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46257768?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Руководитель группы Go, Ограничения доставки"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46759624?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Web-разработчик (поддержка проекта)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/41727246?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Разработчик Golang"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/45643451?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": null,
+            "min_salary": 270000
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Team Lead Go"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/45506755?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Старший системный администратор"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46710143?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "PHP/Go developer"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46711387?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Разработчик Golang, Финансовые сервисы / Ozon Premium"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46060863?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Руководитель разработки в новую бизнес вертикаль"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46734476?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Frontend Developer (Mercedes-Benz Financial Services)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/43287034?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Scrum Master"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/45873830?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Разработчик Go (Платформа Backoffice as a Service)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/45316349?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Backend developer (PHP)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/45198314?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Старший разработчик Go, Платформа/Нагрузочное тестирование"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46734693?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Инженер по нагрузочному тестированию (Платформа)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46809712?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Разработчик Go, Управление заказами/ Доставка Маркетплейса"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46769127?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Системный Архитектор"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/45086084?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Senior Backend Разработчик в Мессенджер"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46703921?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Разработчик Go (Trust & Safety)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/45866707?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "QA automation engineer (IN-APP-CALLS)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46403382?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Начальник отдела маршрутизации"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/45607869?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Руководитель проектов по разработке серверного ПО"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46690964?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Руководитель группы разработки Go, Каталог"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/45154433?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Corporate Communications Manager"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/42608149?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": 200000,
+            "min_salary": 130000
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Middle Golang developer (Москва)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/44536314?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "System Analyst"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46489857?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Специалист по работе с клиентами/администратор"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46718048?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Архитектор информационных систем (Transparent Deal)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/44182261?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Golang developer (Безоперационные продукты)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46717773?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Software development manager (Transparet Deal)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/45366752?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Data engineer / инженер данных"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/42608594?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": 150000,
+            "min_salary": 100000
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Flutter (Dart, Kotlin )/Mobile developer, Москва"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/45236498?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Data engineer/ ETL developer"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46714189?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Инженер по администрированию систем ДБО ЮЛ в Банк"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46688510?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "AppSec engineer"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46686521?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Разработчик Go, Инструменты торговой площадки / Сопровождение торговой площадки"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/45258476?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Senior Performance engineer/ Team lead"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46455327?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Golang developer"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/45908617?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Senior PHP/Go Developer (Platform)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46669888?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "DevOps(балансировка)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46650841?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": null,
+            "min_salary": 300000
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Architect / Tech Lead (Java)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/45851567?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Middle Python разработчик"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46641127?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Разработчик микросервисов (GoLang, Bash, PowerShell, REST)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46230187?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": null,
+            "min_salary": 200000
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Cистемный администратор Linux (команда R&D)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46641810?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": 400000,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "DevOps инженер"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46607888?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Senior Golang Developer"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46649803?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Системный архитектор"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/45884963?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "DevOps Engineer PSP (удаленно)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/42726367?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Разработчик Golang (транспортный процессинг)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46597716?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Golang Developer (Demand)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/45817672?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "С++ разработчик (команда баннерной системы, MyTarget)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/45808878?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Middle/Senior Python Developer"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46607579?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": 360000,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Lead Software Engineer/ Senior Developer (Go/Ruby)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46624937?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Стажер-разработчик Golang (Группа \"Оформления заказов\")"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46595660?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Python/Go developer"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46641017?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Разработчик баз данных (PostgreSQL, PL/pgSQL, Bash)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46632585?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "DevOps / SRE инженер"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46590016?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Главный разработчик / Team Lead Golang"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46631140?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Разработчик КХД"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46065401?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Backend Developer (Laravel)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46549297?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "DevOps engineer"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/45904776?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Go-разработчик (технический департамент)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/39800334?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Backend-разработчик Go"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46513655?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Backend разработчик PHP/Go"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/43449451?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Ведущий backend-разработчик (DDoS Protection)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/45087786?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Разработчик Go, Путь совершения покупки/Хайлайты"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46545568?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Devops-инженер по доставке трафика"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46531654?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "EUR",
+            "max_salary": null,
+            "min_salary": 4000
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Senior PHP Developer // Relocation"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/42556899?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": null,
+            "min_salary": 250000
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Senior Software Engineer (Golang)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46563616?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Go-разработчик (команда Рекламных технологий)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/44706070?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Senior Software Engineer (Golang)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46544072?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Разработчик Go, Клиентские сервисы / Сопровождение торговой площадки"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/44973336?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": null,
+            "min_salary": 220000
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Senior Frontend developer (Vue.js)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/45088206?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Разработчик Go, Путь совершения покупки/Платформа коммуникаций"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/45723367?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": 170000,
+            "min_salary": 130000
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Разработчик Ruby (Ruby on Rails)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/45179802?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Go-разработчик виртуальной инфраструктуры"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46552498?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Стажер-разработчик Golang / группа \"Кабинет бренда, контроль качества\""
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/43093831?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Senior Ruby on Rails Developer"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46573565?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": null,
+            "min_salary": 50000
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Сетевой инженер – тестировщик оборудования со знанием Linux"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46483020?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Go Developer"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/45706488?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Разработчик Go, Путь совершения покупки/Платформа чатов"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/45664181?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Go-разработчик (Пульс)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46533722?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Специалист по телекоммуникациям/Инфраструктура"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46489447?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": null,
+            "min_salary": 200000
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Senior PHP разработчик (Backend)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46511563?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Архитектор программного обеспечения — Департамент информационных технологий"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/40992175?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Разработчик ETL, Обработка и хранение данных"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46487593?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Fullstack Developer (Golang / javascript)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/45526946?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Системный аналитик"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/44838758?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Старший разработчик Go, Платформа/Core"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/45691541?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Senior PHP/Go Developer (Marketplace/Dispatch)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/40942389?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Python программист"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46489490?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": null,
+            "min_salary": 150000
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Middle PHP разработчик (Backend)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46475816?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Backend-разработчик (Golang) — Департамент информационных технологий"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46327139?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Стажер-разработчик Golang"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46488565?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Ведущий Backend-разработчик (Golang) — Департамент информационных технологий"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46453479?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Middle/Senior Golang Developer (удаленно)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/44083653?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Разработчик Go, Внутренние сервисы"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46478585?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Go-разработчик (Мультимаркет)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/44807006?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Разработчик Go/Python (Security)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/44911243?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Senior Go Developer"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46459520?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "QA engineer/Тестировщик Web-сервисов"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46379364?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "PHP-разработчик (MY.GAMES)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46429133?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": null,
+            "min_salary": 180000
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Frontend React разработчик (Web/Mobile)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/45619679?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Senior Golang Developer (software-defined storage)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46414511?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Junior PHP Developer (backend)/Младший PHP разработчик"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46382685?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Team Lead (PHP/Go)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/40943374?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Golang-разработчик"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46449519?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "QA Engineer"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46345763?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": null,
+            "min_salary": 120000
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Ruby on Rails Backend Developer"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46459834?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Architect"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46409226?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": 300000,
+            "min_salary": 180000
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Senior Frontend (ReactJS)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46417691?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": 220000,
+            "min_salary": 140
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Middle/Senior Frontend Developer (React)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46027206?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Разработчик Python"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46388915?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": 200000,
+            "min_salary": 120000
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "PHP-разработчик"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46391905?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Python-программист (рекомендательные системы, сервисы на базе ML)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46443676?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Инженер по автотестированию (Базовые сервисы и инструменты)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46458787?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": null,
+            "min_salary": 250000
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Системный архитектор"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/41128144?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Go developer"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46410783?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": 200000,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Разработчик Golang (в компанию резидент \"Сколково\")"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/43091084?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Руководитель группы разработки GO, рекламная платформа"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46286354?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Golang разработчик (удаленно)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/43232957?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Разработчик решений (проект Tarantool)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46294342?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "GO Developer"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46306924?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "USD",
+            "max_salary": 8000,
+            "min_salary": 6000
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Senior Java Developer (remote or Barcelona)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46305740?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Senior Back-end developer (TakeProfit)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46344559?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Разработчик Go, Путь совершения покупки/В2В и специальные проекты"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/45529753?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "QA инженер (Classified)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46368390?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": 160000,
+            "min_salary": 120000
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Специалист по информационной безопасности (ФинТех)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/43159374?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Архитектор развития платформенных решений UMP"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46306895?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "USD",
+            "max_salary": 8000,
+            "min_salary": 6000
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "DevOps Engineer"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46374872?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Ведущий специалист по микросервисной архитектуре и поддержке транзакционных сервисов"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/40765118?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Go-разработчик в команду IAM (Mail.ru Cloud Solution)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46345709?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Руководитель группы инженеров devops, Эксплуатация"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/45501229?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "PHP developer"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/43770378?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": null,
+            "min_salary": 300000
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Senior Machine Learning Developer (Java/Python)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/45467626?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Разработчик PHP/GO (Billing)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/42875833?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "PHP/Golang Developer (Backoffice)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46281017?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Программист-алгоритмист"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46223928?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Go Developer (Fuel)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/44535861?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Senior Machine Learning Developer (Java/Python) (remote)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46158582?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Golang разработчик (Инвестиции)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46179835?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Kubernetes devops"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/30842054?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Разработчик Go, Логистика"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46143509?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Senior BI Developer"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46191465?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Разработчик Go, Логистика / Тарификация магистральных перевозок"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/45328930?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Middle Golang Developer (офис / удаленно)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/45347384?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Back-end Developer (Node/Java/Python)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/45239007?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Ведущий инженер по администрированию систем ДБО"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46107568?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Golang разработчик (удалённо)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46187409?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "System Analyst в команду Site"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46216759?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Руководитель группы разработки, Сервис управления знаниями / Сопровождение торговой площадки"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46084532?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "GoLang-разработчика (teamLead)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/45236114?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Инженер поддержки брокерских операций"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46075056?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Golang developer (Платформенные сервисы)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/45226728?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Инженер поддержки транзакционных сервисов"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/41839573?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Разработчик управляющей компоненты единого хранилища данных"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/43046994?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Инженер по автотестированию, Рекламная платформа"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46226686?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Специалист поддержки ДБО (2L)"
+    },
+    {
+        "link_of_vacancy": "https://ufa.hh.ru/vacancy/46117154?from=vacancy_search_list&query=Golang",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "hh.ru",
+        "vacancy_name": "Стажер-разработчик Golang, Ozon Рассрочка"
+    },
+    {
+        "link_of_vacancy": "https://www.superjob.ru/vakansii/senior-golang-developer-38409665.html",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": null,
+            "min_salary": 200000
+        },
+        "site_source": "www.superjob.ru",
+        "vacancy_name": "Senior Golang developer"
+    },
+    {
+        "link_of_vacancy": "https://www.superjob.ru/vakansii/programmist-go-38158884.html",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": null,
+            "min_salary": 250000
+        },
+        "site_source": "www.superjob.ru",
+        "vacancy_name": "Программист GO (Middle Golang developer, разработчик Go)"
+    },
+    {
+        "link_of_vacancy": "https://www.superjob.ru/vakansii/golang-38285801.html",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": null,
+            "min_salary": 180000
+        },
+        "site_source": "www.superjob.ru",
+        "vacancy_name": "Golang / GO developer"
+    },
+    {
+        "link_of_vacancy": "https://www.superjob.ru/vakansii/golang-developer-37934091.html",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": 300000,
+            "min_salary": null
+        },
+        "site_source": "www.superjob.ru",
+        "vacancy_name": "Golang Developer"
+    },
+    {
+        "link_of_vacancy": "https://www.superjob.ru/vakansii/programmist-golang-38377376.html",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": null,
+            "min_salary": 200000
+        },
+        "site_source": "www.superjob.ru",
+        "vacancy_name": "Программист Golang / Senior Golang developer"
+    },
+    {
+        "link_of_vacancy": "https://www.superjob.ru/vakansii/golang-38137497.html",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": 300000,
+            "min_salary": null
+        },
+        "site_source": "www.superjob.ru",
+        "vacancy_name": "Golang (Go)-разработчик Senior"
+    },
+    {
+        "link_of_vacancy": "https://www.superjob.ru/vakansii/razrabotchik-php-37857172.html",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": null,
+            "min_salary": 140000
+        },
+        "site_source": "www.superjob.ru",
+        "vacancy_name": "Разработчик PHP"
+    },
+    {
+        "link_of_vacancy": "https://www.superjob.ru/vakansii/senior-software-developer-38347038.html",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "www.superjob.ru",
+        "vacancy_name": "Senior Software developer"
+    },
+    {
+        "link_of_vacancy": "https://www.superjob.ru/vakansii/programmist-bd-38026931.html",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "www.superjob.ru",
+        "vacancy_name": "Программист БД (С++)"
+    },
+    {
+        "link_of_vacancy": "https://www.superjob.ru/vakansii/middle-frontend-razrabotchik-38140289.html",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "www.superjob.ru",
+        "vacancy_name": "Middle Frontend разработчик (React / Redux)"
+    },
+    {
+        "link_of_vacancy": "https://www.superjob.ru/vakansii/devops-inzhener-37997945.html",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": 270000,
+            "min_salary": null
+        },
+        "site_source": "www.superjob.ru",
+        "vacancy_name": "DevOps-инженер"
+    },
+    {
+        "link_of_vacancy": "https://www.superjob.ru/vakansii/middle-38285779.html",
+        "salary": {
+            "currency": "руб.",
+            "max_salary": null,
+            "min_salary": 150000
+        },
+        "site_source": "www.superjob.ru",
+        "vacancy_name": "Middle / Senior Frontend Developer (React)"
+    }
+]
