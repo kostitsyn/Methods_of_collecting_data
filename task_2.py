@@ -26,24 +26,55 @@ def show_match_job_openings(salary):
     vacancy = db.vacancy
     # result = vacancy.find({'$or': [
     #     {'salary.min_salary': {'$gte': salary/usd_course if 'salary.currency' == 'USD' else salary}},
-    #     {'salary.max_salary': {'$gte': salary/usd_course if 'salary.currency' == 'USD' else salary}}]})
-    result = vacancy.find({})
-    res_list = list()
+    #     {'salary.max_salary': {'$gte': salary/usd_course if 'salary.currency' == 'USD' else salary}}]}, {'_id': 0, 'link_of_vacancy': 0})
+    result = vacancy.aggregate([
+        {
+            '$project':
+                {
+                    'link_of_vacancy': 1,
+                    'salar':
+                        {
+                            '$switch':
+                                {
+                                    'branches': [
+                                        {
+                                            'case': {'salary.currency': {'$eq': 'руб.'}},
+                                            'then': salary
+                                        },
+                                        {
+                                            'case': {'salary.currency': {'$eq': 'USD'}},
+                                            'then': salary/usd_course
+                                        },
+                                        {
+                                            'case': {'salary.currency': {'$eq': 'EUR'}},
+                                            'then': salary/eur_course
+                                        }
+                                    ],
+                                    'default': salary
+                                }
+                        }
+                }
+        }
+    ])
+
+    # result = vacancy.find({})
+    # res_list = list()
     for i in result:
-        if i['salary']['currency'] == 'USD':
-            if i['salary']['min_salary'] * usd_course >= salary or i['salary']['max_salary'] * usd_course >= salary:
-                res_list.append(i)
-                print(i)
-        elif i['salary']['currency'] == 'EUR':
-            if i['salary']['min_salary'] * eur_course >= salary or i['salary']['max_salary'] * eur_course >= salary:
-                res_list.append(i)
-                print(i)
-        else:
-            if i['salary']['min_salary'] >= salary or i['salary']['max_salary'] >= salary:
-                res_list.append(i)
-                print(i)
+        # if i['salary']['currency'] == 'USD':
+        #     if i['salary']['min_salary'] * usd_course >= salary or i['salary']['max_salary'] * usd_course >= salary:
+        #         res_list.append(i)
+        #         print(i)
+        # elif i['salary']['currency'] == 'EUR':
+        #     if i['salary']['min_salary'] * eur_course >= salary or i['salary']['max_salary'] * eur_course >= salary:
+        #         res_list.append(i)
+        #         print(i)
+        # else:
+        #     if i['salary']['min_salary'] >= salary or i['salary']['max_salary'] >= salary:
+        #         res_list.append(i)
+        #         print(i)
+        print(i)
 
 
 
-match_salary = int(input('Введите интересующую вас зарплату: '))
+match_salary = int(input('Введите интересующую вас зарплату в рублях: '))
 show_match_job_openings(match_salary)
