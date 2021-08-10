@@ -147,6 +147,7 @@ if __name__ == '__main__':
     'fromSearchLine': 'true',
     'st': 'searchVacancy',
     'text': 'python',
+    'items_on_page': '20'
     }
 
     HEADERS = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36'

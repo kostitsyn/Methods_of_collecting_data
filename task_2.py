@@ -16,64 +16,55 @@ def show_match_job_openings(salary):
     soup = bs(response.text, 'html.parser')
 
     usd_course = float(soup.find('div', {'class': 'rate__currency'}).text)
-    # print(usd_course)
 
     eur_course = float(soup.findAll('div', {'class': 'rate__currency'})[1].text)
-    # print(eur_course)
 
     client = MongoClient('127.0.0.1', 27017)
     db = client['database']
     vacancy = db.vacancy
-    # result = vacancy.find({'$or': [
-    #     {'salary.min_salary': {'$gte': salary/usd_course if 'salary.currency' == 'USD' else salary}},
-    #     {'salary.max_salary': {'$gte': salary/usd_course if 'salary.currency' == 'USD' else salary}}]}, {'_id': 0, 'link_of_vacancy': 0})
     result = vacancy.aggregate([
         {
             '$project':
                 {
+                    '_id': 0,
                     'link_of_vacancy': 1,
-                    'salar':
+                    'salary.min_salary': 1,
+                    'salary.max_salary': 1,
+                    'salary.currency': 1,
+                    'vacancy_name': 1,
+                    'reduced_sal':
                         {
                             '$switch':
                                 {
                                     'branches': [
-                                        {
-                                            'case': {'salary.currency': {'$eq': 'руб.'}},
-                                            'then': salary
-                                        },
-                                        {
-                                            'case': {'salary.currency': {'$eq': 'USD'}},
-                                            'then': salary/usd_course
-                                        },
-                                        {
-                                            'case': {'salary.currency': {'$eq': 'EUR'}},
-                                            'then': salary/eur_course
-                                        }
+                                        {'case': {'$eq': ['$salary.currency', 'руб.']}, 'then': salary},
+                                        {'case': {'$eq': ['$salary.currency', 'USD']}, 'then': round(salary/usd_course, 1)},
+                                        {'case': {'$eq': ['$salary.currency', 'EUR']}, 'then': round(salary/eur_course, 1)},
                                     ],
-                                    'default': salary
+                                    'default': 0
                                 }
                         }
                 }
-        }
+        },
+        {'$match': {'reduced_sal': {'$not': {'$eq': 0}}}}
     ])
 
-    # result = vacancy.find({})
-    # res_list = list()
+    res_list = list()
     for i in result:
-        # if i['salary']['currency'] == 'USD':
-        #     if i['salary']['min_salary'] * usd_course >= salary or i['salary']['max_salary'] * usd_course >= salary:
-        #         res_list.append(i)
-        #         print(i)
-        # elif i['salary']['currency'] == 'EUR':
-        #     if i['salary']['min_salary'] * eur_course >= salary or i['salary']['max_salary'] * eur_course >= salary:
-        #         res_list.append(i)
-        #         print(i)
-        # else:
-        #     if i['salary']['min_salary'] >= salary or i['salary']['max_salary'] >= salary:
-        #         res_list.append(i)
-        #         print(i)
-        print(i)
+        min_salary = i['salary']['min_salary']
+        max_salary = i['salary']['max_salary']
+        reduced_sal = i['reduced_sal']
 
+        if min_salary and min_salary > reduced_sal:
+            res_list.append(i)
+        else:
+            if max_salary and max_salary > reduced_sal:
+                res_list.append(i)
+
+    print('Подходящие вакансии:')
+    for i in res_list:
+        print(f'{i["vacancy_name"]}, зарплата от {i["salary"]["min_salary"]} до '
+              f'{i["salary"]["max_salary"]} {i["salary"]["currency"]}, ссылка: {i["link_of_vacancy"]}')
 
 
 match_salary = int(input('Введите интересующую вас зарплату в рублях: '))
