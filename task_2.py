@@ -12,16 +12,17 @@ def show_match_job_openings(salary):
     url = 'https://mail.ru/'
 
     response = requests.get(url, headers=HEADERS)
-
     soup = bs(response.text, 'html.parser')
 
+    # Получаем текущие значения курса доллара и евро с ресурса mail.ru.
     usd_course = float(soup.find('div', {'class': 'rate__currency'}).text)
-
     eur_course = float(soup.findAll('div', {'class': 'rate__currency'})[1].text)
 
     client = MongoClient('127.0.0.1', 27017)
     db = client['database']
     vacancy = db.vacancy
+
+    # Поле reduced_sal - приведенное значение зарплаты в зависимости от валюты.
     result = vacancy.aggregate([
         {
             '$project':
@@ -43,22 +44,37 @@ def show_match_job_openings(salary):
                                     ],
                                     'default': 0
                                 }
-                        }
+                        },
+
+                    # Здесь и далее в закоментированных строках пытался отфильтровать вакансии непосредственно
+                    # в самом запросе через метод $cmp, но безуспешно. Сделал лишь фильтрацию в методе $match по
+                    # приведенному значению зарплаты: чтоб она не была меньше 0 (0 устанавливался как значение по
+                    # дефолту в методе $switch, если значение salary.currency не соответствовало ни одному из указанных.
+
+                    # 'spam': {'$cmp': ['$reduced_sal', '$salary.min_salary']},
+                    # 'eggs': {'$cmp': ['$salary.max_salary', '$reduced_sal']},
+
                 }
         },
         {'$match': {'reduced_sal': {'$not': {'$eq': 0}}}}
+        # {'$match': {'$or': [{'spam': {'$gte': 0}}, {'eggs': {'$gte': 0}}]}}
     ])
 
+    # for i in result:
+    #     print(i)
+
+    # Отфильтровываем вакансии по требуемому условию: указанная зарплата должна быть меньше
+    # минимальной или максимальной зарплаты в вакансии.
     res_list = list()
     for i in result:
         min_salary = i['salary']['min_salary']
         max_salary = i['salary']['max_salary']
         reduced_sal = i['reduced_sal']
 
-        if min_salary and min_salary > reduced_sal:
+        if min_salary and min_salary >= reduced_sal:
             res_list.append(i)
         else:
-            if max_salary and max_salary > reduced_sal:
+            if max_salary and max_salary >= reduced_sal:
                 res_list.append(i)
 
     print('Подходящие вакансии:')

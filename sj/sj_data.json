@@ -1,32 +1,62 @@
 [
     {
-        "link_of_vacancy": "https://www.superjob.ru/vakansii/python-developer-38209098.html",
+        "link_of_vacancy": "https://www.superjob.ru/vakansii/programmist-ruby-on-rails-38467320.html",
         "salary": {
-            "currency": "руб.",
-            "max_salary": 250000,
+            "currency": null,
+            "max_salary": null,
             "min_salary": null
         },
         "site_source": "www.superjob.ru",
-        "vacancy_name": "Python Developer"
+        "vacancy_name": "Программист Ruby on Rails"
     },
     {
-        "link_of_vacancy": "https://www.superjob.ru/vakansii/specialist-sluzhby-podderzhki-37984546.html",
+        "link_of_vacancy": "https://www.superjob.ru/vakansii/ruby-backend-developer-38469091.html",
         "salary": {
             "currency": "руб.",
-            "max_salary": null,
-            "min_salary": 15000
+            "max_salary": 300000,
+            "min_salary": null
         },
         "site_source": "www.superjob.ru",
-        "vacancy_name": "Специалист службы поддержки (с техническими знаниями)"
+        "vacancy_name": "Ruby Backend Developer"
     },
     {
-        "link_of_vacancy": "https://www.superjob.ru/vakansii/inzhener-asu-tp-36434693.html",
+        "link_of_vacancy": "https://www.superjob.ru/vakansii/inzhener-testirovschik-programmnogo-obespecheniya-38299641.html",
         "salary": {
             "currency": "руб.",
-            "max_salary": null,
-            "min_salary": 34000
+            "max_salary": 100000,
+            "min_salary": 80000
         },
         "site_source": "www.superjob.ru",
-        "vacancy_name": "Инженер АСУ ТП"
+        "vacancy_name": "Инженер-тестировщик программного обеспечения"
+    },
+    {
+        "link_of_vacancy": "https://www.superjob.ru/vakansii/avtotestirovschik-38146588.html",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "www.superjob.ru",
+        "vacancy_name": "Автотестировщик"
+    },
+    {
+        "link_of_vacancy": "https://www.superjob.ru/vakansii/veb-programmist-33400458.html",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "www.superjob.ru",
+        "vacancy_name": "Веб-программист"
+    },
+    {
+        "link_of_vacancy": "https://www.superjob.ru/vakansii/junior-developer-38249371.html",
+        "salary": {
+            "currency": null,
+            "max_salary": null,
+            "min_salary": null
+        },
+        "site_source": "www.superjob.ru",
+        "vacancy_name": "Junior Developer"
     }
 ]
