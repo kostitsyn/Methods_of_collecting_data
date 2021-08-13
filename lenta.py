@@ -35,10 +35,6 @@ class LentaRuScrapper:
         dom_news_list = dom.xpath("//section[contains(@class, 'top7-for-main')]/div[@class ='span4']/div[contains(@class, 'item')]//a/time/..")
         return dom_news_list
 
-    # //section[contains(@class, 'top7-for-main')]/div[@class ='span4']/div[contains(@class, 'item')]//a/time/..
-
-    # //section[contains(@class, 'top7-for-main')]/div[@class ='span4']/div[contains(@class , 'item')]
-
     def fill_news_list(self):
         """Заполнить результирующий список с данными о новостях."""
 
@@ -108,5 +104,6 @@ if __name__ == '__main__':
         df = pd.DataFrame(col.find({}))
         df.drop('_id', axis=1, inplace=True)
         print(df)
+
     except Exception:
         print('Попытка скраппинга потерпела неудачу!')
