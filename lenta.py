@@ -3,15 +3,16 @@ from lxml import html
 from pymongo import MongoClient
 import pandas as pd
 
-class MailRuScrapper:
+
+class LentaRuScrapper:
     def __init__(self, url, headers):
         self.url = url
         self.headers = headers
 
     def run(self):
-        """Запустить скраппинг ресурса mail.ru."""
+        """Запустить скраппинг ресурса lenta.ru."""
 
-        self.get_news_links_list()
+        self.get_dom_news_list()
         self.fill_news_list()
 
     def get_response_obj(self, url):
@@ -27,22 +28,24 @@ class MailRuScrapper:
         dom = html.fromstring(response.text)
         return dom
 
-    def get_news_links_list(self):
-        """Получить список ссылок на новости."""
+    def get_dom_news_list(self):
+        """Получить список DOM объектов главных новостей."""
 
         dom = self.get_dom_obj(self.url)
-        links_list = dom.xpath("//a[contains(@class, 'js-topnews__item')]/@href")
-        return links_list
+        dom_news_list = dom.xpath("//section[contains(@class, 'top7-for-main')]/div[@class ='span4']/div[contains(@class, 'item')]//a/time/..")
+        return dom_news_list
+
+    # //section[contains(@class, 'top7-for-main')]/div[@class ='span4']/div[contains(@class, 'item')]//a/time/..
+
+    # //section[contains(@class, 'top7-for-main')]/div[@class ='span4']/div[contains(@class , 'item')]
 
     def fill_news_list(self):
         """Заполнить результирующий список с данными о новостях."""
 
-        links_list = self.get_news_links_list()
+        dom_news_list = self.get_dom_news_list()
         self.result_news_list = list()
-        for link in links_list:
-            dom_item = self.get_dom_obj(link)
-            item_dict = self.get_item_dict(dom_item)
-            item_dict['news_link'] = link
+        for item in dom_news_list:
+            item_dict = self.get_item_dict(item)
             self.result_news_list.append(item_dict)
 
     def get_news_list(self):
@@ -51,16 +54,21 @@ class MailRuScrapper:
         self.run()
         return self.result_news_list
 
-    def get_item_dict(self, dom_item):
+    def get_item_dict(self, item):
         """Получить словарь с данными о конкретной новости."""
 
         item_dict = dict()
-        source = dom_item.xpath("//div[@class='cols__inner']//a[contains(@class, 'breadcrumbs__link')]/span/text()")
-        item_dict['source'] = source[0]
-        name_news = dom_item.xpath("//div[contains(@class, 'hdr_collapse')]//h1/text()")
-        item_dict['name_news'] = name_news[0]
-        date_published = dom_item.xpath("//div[@class='cols__inner']//span[@datetime]/@datetime")
+        source = self.url.split('//')[1][:-1]
+        item_dict['source'] = source
+        name_news = item.xpath("./text()[last()]")
+        item_dict['name_news'] = name_news[0].replace('\xa0', ' ')
+        date_published = item.xpath("./time/@datetime")
         item_dict['date_published'] = date_published[0]
+        news_link = item.xpath("./@href")[0]
+        if news_link.startswith('https'):
+            item_dict['news_link'] = news_link
+        else:
+            item_dict['news_link'] = f'{self.url[:-1]}{item.xpath("./@href")[0]}'
         return item_dict
 
     def write_in_db(self):
@@ -68,7 +76,7 @@ class MailRuScrapper:
 
         client = MongoClient('127.0.0.1', 27017)
         db = client['database']
-        self.news_collection = db.mail_news
+        self.news_collection = db.lenta_news
         self.news_collection.delete_many({})
         self.news_collection.insert_many(self.result_news_list)
 
@@ -82,10 +90,10 @@ if __name__ == '__main__':
     headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36'
                              ' (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36'}
 
-    url = 'https://news.mail.ru/'
-    print('Запущен скраппинг ресурса news.mail.ru...')
+    url = 'https://lenta.ru/'
+    print('Запущен скраппинг ресурса lenta.ru...')
     try:
-        scrapper_obj = MailRuScrapper(url, headers)
+        scrapper_obj = LentaRuScrapper(url, headers)
         res = scrapper_obj.get_news_list()
         scrapper_obj.write_in_db()
 
