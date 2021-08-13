@@ -103,21 +103,21 @@ if __name__ == '__main__':
 
     url = 'https://yandex.ru/news/'
     print('Запущен скраппинг ресурса yandex.ru/news/...')
-    # try:
-    scrapper_obj = YandexScrapper(url, headers)
-    res = scrapper_obj.get_news_list()
-    scrapper_obj.write_in_db()
+    try:
+        scrapper_obj = YandexScrapper(url, headers)
+        res = scrapper_obj.get_news_list()
+        scrapper_obj.write_in_db()
 
-    col = scrapper_obj.get_database_collection()
+        col = scrapper_obj.get_database_collection()
 
-    pd.set_option('display.max_rows', None)
-    pd.set_option('display.max_columns', None)
-    pd.set_option('display.width', None)
-    pd.set_option('display.max_colwidth', None)
-    pd.set_option('colheader_justify', 'center')
+        pd.set_option('display.max_rows', None)
+        pd.set_option('display.max_columns', None)
+        pd.set_option('display.width', None)
+        pd.set_option('display.max_colwidth', None)
+        pd.set_option('colheader_justify', 'center')
 
-    df = pd.DataFrame(col.find({}))
-    df.drop('_id', axis=1, inplace=True)
-    print(df)
-    # except Exception:
-    #     print('Попытка скраппинга потерпела неудачу!')
+        df = pd.DataFrame(col.find({}))
+        df.drop('_id', axis=1, inplace=True)
+        print(df)
+    except Exception:
+        print('Попытка скраппинга потерпела неудачу!')
