@@ -1,0 +1,1 @@
+print('ipsum' in 'lorem ipsum dolores')
