@@ -23,7 +23,7 @@ class MVideoScrapper:
         self.move_to_url()
 
     def move_to_url(self):
-        """Отправить get-запрос на указанный url."""
+        """Перейти по указанному url."""
 
         self.driver.get(self.url)
         self.close_modal_window()
@@ -76,6 +76,7 @@ class MVideoScrapper:
             res_dict['price'], res_dict['product_name'], res_dict['product_category'] = \
                 data_dict['productPriceLocal'], data_dict['productName'], data_dict['productCategoryName']
             data_list.append(res_dict)
+        self.write_in_db(data_list)
         return data_list
 
     def create_db_cursor(self):
@@ -103,4 +104,6 @@ if __name__ == '__main__':
     pd.set_option('display.width', None)
     pd.set_option('display.max_colwidth', None)
 
-    print(pd.DataFrame(res_list))
+    df = pd.DataFrame(res_list).drop('_id', 1)
+
+    print(df)
