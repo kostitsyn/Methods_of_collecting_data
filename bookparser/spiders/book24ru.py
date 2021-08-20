@@ -14,11 +14,13 @@ class Book24ruSpider(scrapy.Spider):
         links = response.css('a.product-card__image-link::attr(href)').getall()
         if links:
             if self.num_page == 1:
-                next_page = self.start_urls[0]
-            else:
+                next_page = response.url
+            elif self.num_page == 2:
                 next_page = response.url.split('/')
                 next_page.insert(4, f'page-{self.num_page}')
                 next_page = '/'.join(next_page)
+            else:
+                next_page = response.url.replace(f'page-{self.num_page-1}', f'page-{self.num_page}')
             self.num_page += 1
             yield response.follow(next_page, callback=self.parse)
         for link in links:
