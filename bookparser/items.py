@@ -14,4 +14,5 @@ class BookparserItem(scrapy.Item):
     base_price = scrapy.Field()
     price_with_discount = scrapy.Field()
     rating = scrapy.Field()
+    _id = scrapy.Field()
     pass
