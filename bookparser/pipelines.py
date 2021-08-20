@@ -41,5 +41,5 @@ class BookparserPipeline:
         except ValueError:
             item['base_price'] = float(re.findall('\s+(\d+).+', item['base_price'])[0])
         item['price_with_discount'] = float(item['price_with_discount']) if item['price_with_discount'] else None
-        item['rating'] = float(item['rating'])
+        item['rating'] = float(item['rating'].replace(',', '.'))
         return item

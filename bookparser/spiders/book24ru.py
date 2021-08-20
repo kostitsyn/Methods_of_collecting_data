@@ -17,7 +17,7 @@ class Book24ruSpider(scrapy.Spider):
                 next_page = self.start_urls[0]
             else:
                 next_page = response.url.split('/')
-                next_page.insert(3, f'page-{self.num_page}')
+                next_page.insert(4, f'page-{self.num_page}')
                 next_page = '/'.join(next_page)
             self.num_page += 1
             yield response.follow(next_page, callback=self.parse)
