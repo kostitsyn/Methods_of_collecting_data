@@ -1,4 +1,4 @@
-# Scrapy settings for bookparser project
+# Scrapy settings for buildgoodsparser project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -7,13 +7,12 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'bookparser'
+BOT_NAME = 'buildgoodsparser'
 
-SPIDER_MODULES = ['bookparser.spiders']
-NEWSPIDER_MODULE = 'bookparser.spiders'
+SPIDER_MODULES = ['buildgoodsparser.spiders']
+NEWSPIDER_MODULE = 'buildgoodsparser.spiders'
 
-LOG_ENABLED = True
-LOG_LEVEL = 'DEBUG'
+IMAGES_STORE = 'images'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 USER_AGENT = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36'
@@ -21,8 +20,10 @@ USER_AGENT = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Ge
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
 
+LOG_ENABLED = True
+
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
-CONCURRENT_REQUESTS = 32
+CONCURRENT_REQUESTS = 16
 
 # Configure a delay for requests for the same website (default: 0)
 # See https://docs.scrapy.org/en/latest/topics/settings.html#download-delay
@@ -46,14 +47,15 @@ COOKIES_ENABLED = True
 
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
-#SPIDER_MIDDLEWARES = {
-#    'bookparser.middlewares.BookparserSpiderMiddleware': 543,
-#}
+# SPIDER_MIDDLEWARES = {
+#    'buildgoodsparser.middlewares.BuildgoodsparserSpiderMiddleware': 200,
+#
+# }
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    'bookparser.middlewares.BookparserDownloaderMiddleware': 543,
+#    'buildgoodsparser.middlewares.BuildgoodsparserDownloaderMiddleware': 543,
 #}
 
 # Enable or disable extensions
@@ -65,8 +67,12 @@ COOKIES_ENABLED = True
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-   'bookparser.pipelines.BookparserPipeline': 300,
+   'buildgoodsparser.pipelines.BuildgoodsparserPipeline': 300,
+   'buildgoodsparser.pipelines.BuildgoodsPhotosPipeline': 100,
 }
+
+# https://leroymerlin.ru/product/plitka-napolnaya-garda-40x40-sm-112-m-cvet-korichnevyy-82397222/
+# https://leroymerlin.ru/product/plitka-napolnaya-garda-40x40-sm-1-12-m-cvet-korichnevyy-82397222/
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
