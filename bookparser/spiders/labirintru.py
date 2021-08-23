@@ -16,11 +16,11 @@ class LabirintruSpider(scrapy.Spider):
             yield response.follow(f'{self.allowed_domains[0]}{next_page}', callback=self.parse)
 
         for link in links:
-            yield response.follow(link, callback=self.book_parse, meta={'link': f'{self.allowed_domains[0]}{link}'})
+            yield response.follow(link, callback=self.book_parse)
 
 
     def book_parse(self, response: HtmlResponse):
-        item_link = response.meta.get('link')
+        item_link = response.url
         item_book_name = response.css('h1::text').get()
         item_authors = response.css('a[data-event-label="author"]::text').getall() or \
                   response.css('a[data-event-label="translator"]::text').getall()

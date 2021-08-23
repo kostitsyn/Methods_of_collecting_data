@@ -24,10 +24,10 @@ class Book24ruSpider(scrapy.Spider):
             self.num_page += 1
             yield response.follow(next_page, callback=self.parse)
         for link in links:
-            yield response.follow(link, callback=self.book_parse, meta={'link': f'{self.allowed_domains[0]}{link}'})
+            yield response.follow(link, callback=self.book_parse)
 
     def book_parse(self, response: HtmlResponse):
-        item_link = response.meta.get('link')
+        item_link = response.url
         item_book_name = response.css('h1::text').get()
         item_authors = response.xpath("//h2[contains(text(), 'Характеристики')]/..//li[contains(@class, item-holder)][1]//a/text()").getall()
 
