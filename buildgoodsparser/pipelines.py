@@ -22,8 +22,7 @@ class BuildgoodsparserPipeline:
         return item
 
     def process_leroymerlinru(self, item):
-
-        item['params'] = {i.keys[0]: i.values[0] for i in item['params']}
+        item['characteristics'] = {list(itm.keys())[0]: list(itm.values())[0] for itm in item['characteristics']}
         return item
 
 
@@ -42,8 +41,7 @@ class BuildgoodsPhotosPipeline(ImagesPipeline):
         return item
 
     def file_path(self, request, response=None, info=None, *, item=None):
-        spam = super().file_path(request, response=None, info=None, item=None)
-        spam1 = spam.split('/')
-        name = item['name']
-        spam2 = '/'.join(spam1.insert(1, name))
-        return spam2
+        base_path = (super().file_path(request, response=None, info=None, item=None)).split('/')
+        base_path.insert(1, item['name'])
+        new_path = '/'.join(base_path)
+        return new_path
