@@ -22,13 +22,14 @@ class BuildgoodsparserPipeline:
         return item
 
     def process_leroymerlinru(self, item):
-        item['params'] = item['params'].replace(item['name'], '').strip()
+
+        item['params'] = {i.keys[0]: i.values[0] for i in item['params']}
         return item
 
 
 class BuildgoodsPhotosPipeline(ImagesPipeline):
     def get_media_requests(self, item, info):
-        if item['photo']:
+        if item['photos']:
             for img in item['photos']:
                 try:
                     yield scrapy.Request(img)
@@ -39,3 +40,10 @@ class BuildgoodsPhotosPipeline(ImagesPipeline):
         if results:
             item['photos'] = [itm[1] for itm in results if itm[0]]
         return item
+
+    def file_path(self, request, response=None, info=None, *, item=None):
+        spam = super().file_path(request, response=None, info=None, item=None)
+        spam1 = spam.split('/')
+        name = item['name']
+        spam2 = '/'.join(spam1.insert(1, name))
+        return spam2

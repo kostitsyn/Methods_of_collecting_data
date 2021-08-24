@@ -67,8 +67,8 @@ COOKIES_ENABLED = True
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
+   'buildgoodsparser.pipelines.BuildgoodsPhotosPipeline': 200,
    'buildgoodsparser.pipelines.BuildgoodsparserPipeline': 300,
-   'buildgoodsparser.pipelines.BuildgoodsPhotosPipeline': 100,
 }
 
 # https://leroymerlin.ru/product/plitka-napolnaya-garda-40x40-sm-112-m-cvet-korichnevyy-82397222/
