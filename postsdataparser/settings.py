@@ -7,6 +7,8 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
+IMAGES_STORE = 'photos'
+
 BOT_NAME = 'postsdataparser'
 
 SPIDER_MODULES = ['postsdataparser.spiders']
@@ -65,9 +67,10 @@ COOKIES_ENABLED = True
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'postsdataparser.pipelines.PostsdataparserPipeline': 300,
-#}
+ITEM_PIPELINES = {
+   'postsdataparser.pipelines.PostsdataparserPipeline': 300,
+   'postsdataparser.pipelines.PostsavatarPipeline': 200,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
