@@ -28,26 +28,43 @@ class InstagramSpider(scrapy.Spider):
                                            'enc_password': self.inst_passwd},
                                  headers={'X-CSRFToken': csrf})
 
+    # def user_login(self, response: HtmlResponse):
+    #     j_body = response.json()
+    #     if j_body['authenticated']:
+    #         for user in self.users:
+    #             yield response.follow(f'/{user}',
+    #                                   callback=self.user_data_parse,
+    #                                   cb_kwargs={'username': user})
+
     def user_login(self, response: HtmlResponse):
         j_body = response.json()
         if j_body['authenticated']:
-            for user in self.users:
-                yield response.follow(f'/{user}',
-                                      callback=self.user_data_parse,
-                                      cb_kwargs={'username': user})
+            variables = {
+                'count': 12,
+                'search_surface': 'follow_list_page'
+            }
+            url = f'{self.api_url}{j_body["userId"]}/followers/?{urlencode(variables)}'
+            yield response.follow(url, callback=self.get_users, headers=self.header)
 
-    def user_data_parse(self, response: HtmlResponse, username):
-        user_id = self.get_user_id(response.text, username)
+    def get_users(self, response: HtmlResponse):
+        """Получить двух первых друзей-подписчиков для последующего скрапинга их контактов."""
 
+        j_body = response.json()
+        users = j_body['users'][:2]
+        for user in users:
+            yield response.follow(f'/{user["username"]}',
+                                  callback=self.user_data_parse,
+                                  cb_kwargs={'user_data': user})
+
+    def user_data_parse(self, response: HtmlResponse, user_data):
         variables_followers = {
             'count': 12,
             'search_surface': 'follow_list_page'
         }
-        url_followers = f'{self.api_url}{user_id}/followers/?{urlencode(variables_followers)}'
+        url_followers = f'{self.api_url}{user_data["pk"]}/followers/?{urlencode(variables_followers)}'
         yield response.follow(url_followers,
                               callback=self.followers_parse,
-                              cb_kwargs={'user_id': user_id,
-                                         'username': username,
+                              cb_kwargs={'user_data': user_data,
                                          'variables': deepcopy(variables_followers)},
                               headers=self.header
                               )
@@ -55,27 +72,25 @@ class InstagramSpider(scrapy.Spider):
         variables_following = {
             'count': 12,
         }
-        url_following = f'{self.api_url}{user_id}/following/?{urlencode(variables_following)}'
+        url_following = f'{self.api_url}{user_data["pk"]}/following/?{urlencode(variables_following)}'
         yield response.follow(url_following,
                               callback=self.following_parse,
-                              cb_kwargs={'user_id': user_id,
-                                         'username': username,
+                              cb_kwargs={'user_data': user_data,
                                          'variables': deepcopy(variables_following)},
                               headers=self.header
                               )
 
-    def followers_parse(self, response: HtmlResponse, user_id, username, variables):
+    def followers_parse(self, response: HtmlResponse, user_data, variables):
         """Парсинг подписчиков."""
 
         if response.status == 200:
             j_data = response.json()
             if j_data.get('big_list'):
                 variables['max_id'] = j_data.get('next_max_id')
-                url_followers = f'{self.api_url}{user_id}/followers/?{urlencode(variables)}'
+                url_followers = f'{self.api_url}{user_data.get("pk")}/followers/?{urlencode(variables)}'
                 yield response.follow(url_followers,
                                       callback=self.followers_parse,
-                                      cb_kwargs={'user_id': user_id,
-                                                 'username': username,
+                                      cb_kwargs={'user_data': user_data,
                                                  'variables': variables},
                                       headers=self.header
                                       )
@@ -85,7 +100,7 @@ class InstagramSpider(scrapy.Spider):
                 # владелец аккаунта;
                 # отношение рассматриваемого профиля к владельцу аккаунта: подписчик или профиль на который подписаны.
                 item = PostsdataparserItem(_id=follower.get('pk'),
-                                           owner=username,
+                                           owner=user_data.get("username"),
                                            relation='follower',
                                            login=follower.get('username'),
                                            name=follower.get('full_name'),
@@ -93,25 +108,24 @@ class InstagramSpider(scrapy.Spider):
                                            follower_data=follower)
                 yield item
 
-    def following_parse(self, response:HtmlResponse, user_id, username, variables):
+    def following_parse(self, response:HtmlResponse, user_data, variables):
         """Парсинг на кого подписан."""
 
         if response.status == 200:
             j_data = response.json()
             if j_data.get('big_list'):
                 variables['max_id'] = j_data.get('next_max_id')
-                url_followings = f'{self.api_url}{user_id}/following/?{urlencode(variables)}'
+                url_followings = f'{self.api_url}{user_data.get("pk")}/following/?{urlencode(variables)}'
                 yield response.follow(url_followings,
                                       callback=self.following_parse,
-                                      cb_kwargs={'user_id': user_id,
-                                                 'username': username,
+                                      cb_kwargs={'user_data': user_data,
                                                  'variables': variables},
                                       headers=self.header
                                       )
             followings = j_data.get('users')
             for following in followings:
                 item = PostsdataparserItem(_id=following.get('pk'),
-                                           owner=username,
+                                           owner=user_data.get("username"),
                                            relation='following',
                                            login=following.get('username'),
                                            name=following.get('full_name'),
@@ -123,10 +137,3 @@ class InstagramSpider(scrapy.Spider):
     def get_csrf_token(self, text):
         csrf = re.findall('csrf_token":"(\w+)"?', text)[0]
         return csrf
-
-    def get_user_id(self, text, username):
-        user_id = re.findall(f'"id":"(\d+)","username":"{username}"', text)[0]
-        return user_id
-
-
-
