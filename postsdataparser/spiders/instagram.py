@@ -16,7 +16,6 @@ class InstagramSpider(scrapy.Spider):
     inst_passwd = profile_dict['password']
     inst_login_link = 'https://www.instagram.com/accounts/login/ajax/'
     header = {'User-Agent': 'Instagram 155.0.0.37.107'}
-    users = ['vanyaman1', 'nicky_izh']
     api_url = 'https://i.instagram.com/api/v1/friendships/'
 
     def parse(self, response: HtmlResponse):
@@ -27,14 +26,6 @@ class InstagramSpider(scrapy.Spider):
                                  formdata={'username': self.inst_login,
                                            'enc_password': self.inst_passwd},
                                  headers={'X-CSRFToken': csrf})
-
-    # def user_login(self, response: HtmlResponse):
-    #     j_body = response.json()
-    #     if j_body['authenticated']:
-    #         for user in self.users:
-    #             yield response.follow(f'/{user}',
-    #                                   callback=self.user_data_parse,
-    #                                   cb_kwargs={'username': user})
 
     def user_login(self, response: HtmlResponse):
         j_body = response.json()
