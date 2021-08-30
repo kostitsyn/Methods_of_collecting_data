@@ -12,10 +12,8 @@ class InstagramSpider(scrapy.Spider):
     start_urls = ['http://instagram.com/']
     with open('../person.json') as f:
         profile_dict = json.load(f)
-    # inst_login = 'aleksandr74956'
     inst_login = profile_dict['login']
     inst_passwd = profile_dict['password']
-    # inst_passwd = '#PWD_INSTAGRAM_BROWSER:10:1630055380:ATFQAIDgPImjuNZONu0aRePE0gG6YBeAg6p7VeM7v9r7qIliX3TY2iRWxTFTk8FjGNXMOS9JqH1cSkbLaUyuS2yCn9vBISlbFpV0Bj2Oue4r80TStvBsh6WKEo4gGwfdT3jAxe5frKcIID2R'
     inst_login_link = 'https://www.instagram.com/accounts/login/ajax/'
     header = {'User-Agent': 'Instagram 155.0.0.37.107'}
     users = ['vanyaman1', 'nicky_izh']
