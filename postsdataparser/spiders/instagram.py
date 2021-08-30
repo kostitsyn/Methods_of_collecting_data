@@ -1,22 +1,28 @@
 import scrapy
 import re
 import json
+import sys
 from scrapy.http import HtmlResponse
 from urllib.parse import urlencode
 from copy import deepcopy
 from postsdataparser.items import PostsdataparserItem
 
+
 class InstagramSpider(scrapy.Spider):
     name = 'instagram'
     allowed_domains = ['instagram.com']
-    start_urls = ['http://instagram.com/']
-    with open('../person.json') as f:
-        profile_dict = json.load(f)
-    inst_login = profile_dict['login']
-    inst_passwd = profile_dict['password']
-    inst_login_link = 'https://www.instagram.com/accounts/login/ajax/'
-    header = {'User-Agent': 'Instagram 155.0.0.37.107'}
-    api_url = 'https://i.instagram.com/api/v1/friendships/'
+
+    def __init__(self, users_num):
+        super().__init__()
+        self.users_num = users_num
+        self.start_urls = ['http://instagram.com/']
+        with open('../person.json') as f:
+            profile_dict = json.load(f)
+        self.inst_login = profile_dict['login']
+        self.inst_passwd = profile_dict['password']
+        self.inst_login_link = 'https://www.instagram.com/accounts/login/ajax/'
+        self.header = {'User-Agent': 'Instagram 155.0.0.37.107'}
+        self.api_url = 'https://i.instagram.com/api/v1/friendships/'
 
     def parse(self, response: HtmlResponse):
         csrf = self.get_csrf_token(response.text)
@@ -38,10 +44,16 @@ class InstagramSpider(scrapy.Spider):
             yield response.follow(url, callback=self.get_users, headers=self.header)
 
     def get_users(self, response: HtmlResponse):
-        """Получить двух первых друзей-подписчиков для последующего скрапинга их контактов."""
+        """Получить друзей-подписчиков для последующего скрапинга их контактов."""
 
         j_body = response.json()
-        users = j_body['users'][:2]
+        try:
+            j_body['users'][self.users_num-1]
+        except IndexError:
+            print('Указанное число пользователей превышает реальное количество подписчиков!')
+            sys.exit(0)
+        else:
+            users = j_body['users'][:self.users_num]
         for user in users:
             yield response.follow(f'/{user["username"]}',
                                   callback=self.user_data_parse,
